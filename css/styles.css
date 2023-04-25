@@ -142,6 +142,7 @@ address {
     text-decoration: none;
     color: #757575;
     font-size: 14px;
+    font-weight: 500;
     letter-spacing: 0.03em;
     line-height: 1.17;
 }
@@ -188,6 +189,8 @@ li {
     text-decoration: none;
     color: #212121;
     letter-spacing: 0.03em;
+    font-size: 14px;
+    font-weight: 500;
 }
 .menu-link:hover,
 .menu-link:active {
