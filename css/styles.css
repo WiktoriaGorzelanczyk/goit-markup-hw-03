@@ -137,6 +137,9 @@ address {
 .menu-links {
     text-decoration: none; 
     letter-spacing: 0.03em;
+    display: block;
+    width: 53px;
+    height: 16px;
 }
 .link {
     text-decoration: none;
