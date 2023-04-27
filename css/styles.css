@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     color: black;
     letter-spacing: 0.03em;
+    margin: 0 auto;
 }
 .button-primary:hover ,
 .button-primary:active {
@@ -15,6 +16,7 @@ body {
     background-color:#2F303A;
     color: white;
     text-align: center;
+    height: 600px;
 }
 .header-menu {
     color: #2196F3;
@@ -33,6 +35,14 @@ h1 {
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 0.03em;
+}
+.container-first {
+    padding-top: 200px;
+    padding-bottom: 280px;
+    max-width: 696px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 h2 {
     font-size: 14px;
@@ -196,4 +206,6 @@ li {
 .menu-link:active {
     cursor: pointer;
     color: #2196F3;
+}
+.container {
 }
