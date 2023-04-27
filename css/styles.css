@@ -188,6 +188,7 @@ li {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.06em;
+    border-radius: 4px;;
 }
 .nav-link {
     text-decoration: none;
