@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 body {
     font-family: Roboto, sans-serif;
     color: black;
@@ -11,6 +14,7 @@ body {
 .main-footer {
     background-color: #2F303A;
     color: black;
+    display: flex;
 }
 .main-first {
     background-color:#2F303A;
@@ -147,6 +151,7 @@ address {
 .menu-links {
     text-decoration: none; 
     letter-spacing: 0.03em;
+    display: block;
 }
 .link {
     text-decoration: none;
@@ -160,6 +165,15 @@ address {
 .link:active {
     cursor: pointer;
     color: #2196F3;
+}
+.top-title {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    line-height: 1.17;
+    text-decoration: none;
 }
 .title {
     color: #2196F3;
@@ -188,7 +202,8 @@ li {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.06em;
-    border-radius: 4px;;
+    border-radius: 4px;
+    margin-top: 40px;
 }
 .nav-link {
     text-decoration: none;
@@ -209,4 +224,9 @@ li {
     color: #2196F3;
 }
 .container {
+    display: flex;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1200px;
+    padding: 0 15px;
 }
