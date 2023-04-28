@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: Roboto, sans-serif;
@@ -15,6 +16,8 @@ body {
     background-color: #2F303A;
     color: black;
     display: flex;
+    margin: 0 auto;
+    height: 252px;
 }
 .main-first {
     background-color:#2F303A;
@@ -25,6 +28,8 @@ body {
 .header-menu {
     color: #2196F3;
     text-decoration: none;
+    width: 0 auto;
+    height: 80px;
 }
 .nav-link:hover,
 .nav-link:active {
@@ -95,7 +100,8 @@ p {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-align: center;
+}
+.work-images {
 }
 .team-text {
     color: #212121;
@@ -103,7 +109,6 @@ p {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-align: center;
 }
 .team-name {
     color: #212121;
@@ -151,7 +156,10 @@ address {
 .menu-links {
     text-decoration: none; 
     letter-spacing: 0.03em;
-    display: block;
+}
+.social-links {
+    display: flex;
+    margin-right: 227px;
 }
 .link {
     text-decoration: none;
@@ -204,12 +212,8 @@ li {
     letter-spacing: 0.06em;
     border-radius: 4px;
     margin-top: 40px;
-}
-.nav-link {
-    text-decoration: none;
-    color: #212121;
-    font-size: 14px;
-    letter-spacing: 0.03em;
+    padding: 10px 42px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 .menu-link {
     text-decoration: none;
@@ -228,5 +232,15 @@ li {
     margin: 0 auto;
     box-sizing: border-box;
     width: 1200px;
+    align-items: center;
     padding: 0 15px;
+}
+.contact {
+    display: block;
+    justify-content: center;
+}
+.container-menu {
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid ;
 }
