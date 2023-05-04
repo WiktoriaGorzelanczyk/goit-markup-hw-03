@@ -48,7 +48,6 @@ img {
 .header-menu {
     color: #2196F3;
     text-decoration: none;
-    width: 0 auto;
     height: 80px;
     justify-content: flex-start;
     align-items: baseline;
