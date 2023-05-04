@@ -32,6 +32,18 @@ img {
     color: white;
     text-align: center;
     height: 600px;
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-first-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    letter-spacing: 0.06em;
+    text-align: center;
+    max-width: 696px;
 }
 .header-menu {
     color: #2196F3;
@@ -84,10 +96,17 @@ ul {
     list-style-type: none;
     letter-spacing: 0.03em;
 }
+.descriptions-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    padding-bottom: 10px;
+}
 .descriptions-text {
-    list-style-type: none;
-    display: flexbox;
-    order: 3;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 button {
     color: #FFFFFF;
@@ -121,9 +140,35 @@ p {
 .work-text {
     color: #212121;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1.16;
     letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.work-list {
+    list-style-type: none;
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-around;
+}
+.team {
+    text-align: center;
+}
+.team-list {
+    list-style-type: none;
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-around;
+}
+.team-item {
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.fig-team {
+    padding: 30px 20px;
 }
 .team-text {
     color: #212121;
@@ -131,6 +176,8 @@ p {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 50px;
 }
 .team-name {
     color: #212121;
@@ -138,6 +185,8 @@ p {
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 10px;
 }
 .team-job {
     color: #757575;
@@ -151,12 +200,14 @@ p {
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
+    padding-bottom: 4px;
 }
 .portfolio-type {
     color: #757575;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+    padding-top: 0;
 }
 .portfolio-buttons {
     list-style-type: none;
@@ -270,9 +321,12 @@ li {
 .menu-link {
     text-decoration: none;
     color: #212121;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     font-size: 14px;
     font-weight: 500;
+    line-height: 1.15;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .menu-link:hover,
 .menu-link:active {
@@ -307,5 +361,18 @@ li {
 .desc-list {
     list-style-type: none;
     display: flex;
+    column-gap: 30px;
+}
+.con-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.descriptions {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-around;
     column-gap: 30px;
 }
