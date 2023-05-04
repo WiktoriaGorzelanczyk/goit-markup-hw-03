@@ -1,5 +1,9 @@
 * {
     margin: 0;
+    padding: 0;
+}
+*::before,
+*::after {
     box-sizing: border-box;
 }
 body {
@@ -30,6 +34,8 @@ body {
     text-decoration: none;
     width: 0 auto;
     height: 80px;
+    justify-content: flex-start;
+    align-items: baseline;
 }
 .nav-link:hover,
 .nav-link:active {
@@ -87,21 +93,12 @@ p {
     font-size: 14px;
     line-height: 1.71;
 }
-.descriptions-name {
-    color: #212121;
-    letter-spacing: 0.03em;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.14;
-}
 .work-text {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
-}
-.work-images {
 }
 .team-text {
     color: #212121;
@@ -156,10 +153,16 @@ address {
 .menu-links {
     text-decoration: none; 
     letter-spacing: 0.03em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    column-gap: 46px;;
 }
 .social-links {
     display: flex;
-    margin-right: 227px;
+    justify-content: end;
+    padding-top: 32px;
+   
+
 }
 .link {
     text-decoration: none;
@@ -182,6 +185,10 @@ address {
     font-weight: 700;
     line-height: 1.17;
     text-decoration: none;
+    float: left;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
 }
 .title {
     color: #2196F3;
@@ -228,19 +235,32 @@ li {
     color: #2196F3;
 }
 .container {
-    display: flex;
-    margin: 0 auto;
-    box-sizing: border-box;
-    width: 1200px;
-    align-items: center;
+    width: 100%;
+    max-width: 1200px;
     padding: 0 15px;
+    margin: 0 auto;
+}
+.menu-contact {
+    display: flex;
+    align-items: center;
+    column-gap: 93px;
 }
 .contact {
-    display: block;
+    display: flex;
     justify-content: center;
 }
-.container-menu {
-    padding: 20px;
-    margin: 10px;
-    border: 5px solid ;
+.menu {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    justify-content: space-around;
+    border: 5px solid white;
+    height: 80px;
+    box-sizing: border-box;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 93px;
+    padding-right: 371px;
 }
