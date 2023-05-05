@@ -247,12 +247,14 @@ p {
     letter-spacing: 0.03em;
     padding-top: 32px;
     padding-bottom: 32px;
-    column-gap: 46px;;
+    column-gap: 46px;
+    margin-left: -296px;
 }
 .social-links {
     display: flex;
     justify-content: end;
-    padding-top: 32px;
+    margin-top: -32px;
+    margin-bottom: -32px;
 }
 .link {
     text-decoration: none;
@@ -311,7 +313,7 @@ li {
     font-weight: 700;
     letter-spacing: 0.06em;
     border-radius: 4px;
-    margin-top: 40px;
+    padding-top: 40px;
     padding: 10px 42px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
