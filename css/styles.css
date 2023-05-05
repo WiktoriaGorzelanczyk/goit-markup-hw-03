@@ -228,6 +228,13 @@ p {
     list-style-type: none;
     gap: 30px;
 }
+.portfolio-figa {
+    border-bottom: 1px solid  rgba(238, 238, 238, 1);
+    border-left: 1px solid  rgba(238, 238, 238, 1);
+    border-right: 1px solid  rgba(238, 238, 238, 1);
+    padding: 20px 24px 20px 24px;
+    margin-top: -60px;
+}
 .address {
     font-style: normal;
     color: #FFFFFF;
