@@ -17,7 +17,6 @@ body {
 }
 img {
     display: block;
-
 }
 .section {
     padding-top: 94px;
@@ -53,7 +52,8 @@ img {
     border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 .nav-link:hover,
-.nav-link:active {
+.nav-link:active,
+.nav-link:focus {
     cursor: pointer;
     color: #2196f3;
 }
@@ -85,7 +85,8 @@ h2 {
     padding-top: 94px;
 }
 .buttons:hover ,
-.buttons:active {
+.buttons:active,
+.buttons:focus {
     cursor: pointer;
     background: #2196F3;
     color: #FFFFFF;
@@ -255,7 +256,8 @@ p {
     padding-bottom: 9px;
 }
 .links:hover,
-.links:active {
+.links:active,
+.links:focus {
     cursor: pointer;
     color:#2196F3;
 }
@@ -283,7 +285,8 @@ p {
     padding-left: 50px;
 }
 .link:hover ,
-.link:active {
+.link:active,
+.link:focus {
     cursor: pointer;
     color: #2196F3;
 }
@@ -345,7 +348,8 @@ li {
     padding-bottom: 32px;
 }
 .menu-link:hover,
-.menu-link:active {
+.menu-link:active,
+.menu-link:focus {
     cursor: pointer;
     color: #2196F3;
 }
