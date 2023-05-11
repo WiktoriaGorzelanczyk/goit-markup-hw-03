@@ -82,7 +82,6 @@ h2 {
     text-align: left;
     color: #212121;
     padding-bottom: 10px;
-    padding-top: 94px;
 }
 .buttons:hover ,
 .buttons:active,
@@ -158,7 +157,6 @@ p {
 .team {
     text-align: center;
     background: #F5F4FA;
-    margin-top: 94px;
 }
 .team-list {
     list-style-type: none;
@@ -170,7 +168,6 @@ p {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 94px;
 }
 .fig-team {
     margin: 30px 20px;
@@ -183,7 +180,6 @@ p {
     letter-spacing: 0.03em;
     text-align: center;
     padding-bottom: 50px;
-    padding-top: 188px;
 }
 .team-name {
     color: #212121;
@@ -234,7 +230,6 @@ p {
     border-left: 1px solid  rgba(238, 238, 238, 1);
     border-right: 1px solid  rgba(238, 238, 238, 1);
     padding: 20px 24px 20px 24px;
-    margin-top: -60px;
 }
 .address {
     font-style: normal;
@@ -391,8 +386,8 @@ li {
     gap: 30px;
 }
 .descriptions {
-    padding-bottom: 0;
     display: flex;
     justify-content: space-around;
     column-gap: 30px;
 }
+
